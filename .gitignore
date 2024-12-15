@@ -3,3 +3,6 @@ dist
 node_modules
 .vscode-test/
 *.vsix
+
+# Ignorar archivo de análisis
+project-analysis.json
