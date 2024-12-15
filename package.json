@@ -2,27 +2,19 @@
   "name": "focus-commit",
   "displayName": "Focus Commit",
   "description": "Genera mensajes de commit inteligentes y contextuales basados en los cambios de tu código con el poder de la inteligencia artificial.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "taype-dev",
-  "icons": {
-    "16": "assets/logo-extension.png",
-    "48": "assets/logo-extension.png",
-    "128": "assets/logo-extension.png"
-  },
-  "action": {
-    "default_icon": {
-      "16": "assets/logo-extension.png",
-      "48": "assets/logo-extension.png",
-      "128": "assets/logo-extension.png"
-    },
-    "default_title": "Mi Extensión"
-  },
+  "icon": "assets/logo-extension.png",
   "engines": {
     "vscode": "^1.96.0"
   },
   "categories": [
     "Other"
   ],
+  "repository": {
+    "url": "https://github.com/jetaype21/vscode-extension-focus-commit-taype-dev.git",
+    "type": "git"
+  },
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
